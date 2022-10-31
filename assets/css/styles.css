@@ -1901,6 +1901,10 @@ a.no-style:visited {
     color: #5de033;
 }
 
+.legendary-preferred-meal {
+    color:#b575f9;
+}
+
 .legendary-cooldown-timer {
     color: #d80419;
     margin-bottom: 10px;
