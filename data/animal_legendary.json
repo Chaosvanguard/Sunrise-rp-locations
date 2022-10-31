@@ -573,18 +573,9 @@
   {
     "text": "mp_animal_wolf_legendary_01", "x": -41.6094, "y": 136.375, "radius": 7,
     "locations": [
-      { "text": "wolf_o_creagh_01", "x": -42.8786, "y": 136.8918 },
-      { "text": "wolf_o_creagh_02", "x": -40.8738, "y": 137.8486 },
-      { "text": "wolf_o_creagh_03", "x": -42.2985, "y": 135.6452 },
-      { "text": "wolf_cohutta_01", "x": -37.1941, "y": 133.4385 },
-      { "text": "wolf_cohutta_02", "x": -38.0485, "y": 136.0282 },
-      { "text": "wolf_cohutta_03", "x": -36.5916, "y": 137.5960 },
-      { "text": "wolf_o_creagh_04", "x": -47.0415, "y": 134.3837 },
-      { "text": "wolf_o_creagh_05", "x": -43.0274, "y": 133.0478 },
-      { "text": "wolf_o_creagh_06", "x": -45.0703, "y": 139.4214 },
-      { "text": "wolf_o_creagh_07", "x": -42.0417, "y": 141.4063 }
+      { "text": "wolf_o_creagh_01", "x": -42.8786, "y": 136.8918 }
     ],
-    "animal_name": "Emerald Wolf",
+    "animal_name": "Legendary Wolf",
     "spawn_time": [[18, 6]],
     "preferred_weather": "any",
     "trader_materials": 27.81,
@@ -599,23 +590,9 @@
   {
     "text": "mp_animal_wolf_legendary_02", "x": -35.0469, "y": 115.3906, "radius": 6,
     "locations": [
-      { "text": "wolf_cohutta_05", "x": -36.4469, "y": 114.3362 },
-      { "text": "wolf_cohutta_14", "x": -38.2638, "y": 110.9688 },
-      { "text": "wolf_cohutta_10", "x": -34.3610, "y": 119.1464 },
-      { "text": "wolf_cohutta_04", "x": -35.2884, "y": 114.1673 },
-      { "text": "wolf_cohutta_08", "x": -34.0797, "y": 116.3378 },
-      { "text": "wolf_cohutta_12", "x": -36.6548, "y": 116.2641 },
-      { "text": "wolf_cohutta_11", "x": -37.1316, "y": 115.2298 },
-      { "text": "wolf_cohutta_13", "x": -36.9613, "y": 110.8264 },
-      { "text": "wolf_cohutta_06", "x": -33.8945, "y": 115.0019 },
-      { "text": "wolf_cohutta_09", "x": -34.9834, "y": 116.8839 },
-      { "text": "wolf_o_creagh_10", "x": -34.5566, "y": 113.2794 },
-      { "text": "wolf_o_creagh_09", "x": -36.4563, "y": 113.7856 },
-      { "text": "wolf_o_creagh_08", "x": -35.2793, "y": 113.2706 },
-      { "text": "wolf_cohutta_15", "x": -31.4701, "y": 118.7416 },
-      { "text": "wolf_cohutta_07", "x": -33.7073, "y": 119.2495 }
+      { "text": "wolf_cohutta_05", "x": -36.4469, "y": 114.3362 }
     ],
-    "animal_name": "Onyx Wolf",
+    "animal_name": "Legendary Moonstone Wolf",
     "spawn_time": [[21, 6]],
     "preferred_weather": "clear",
     "trader_materials": 35.31,
