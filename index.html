@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Red Dead Online - Collectors Map</title>
+  <title>Sunrise RP - Collectors Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
-    content="Red Dead Online Collectors Map. Find all collectibles across the world and sell to Madam Nazar.">
+    content="Sunrise RP Collectors Map. Find all collectibles across the county.">
   <meta name="keywords"
-    content="Red Dead Online, Collectors Map, Collectors Map, Map, Interactive Map, Interactive, jeanropke map, jeanropke">
+    content="Sunrise RP, Collectors Map, Collectors Map, Map, Interactive Map, Interactive, claud map, claud">
 
   <link rel="apple-touch-icon" sizes="60x60" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -19,11 +19,6 @@
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-config" content="./browserconfig.xml">
   <meta name="theme-color" content="#000000">
-
-  <!-- Preconnects to improve performance -->
-  <link rel="preconnect" href="https://pepegapi.jeanropke.net">
-  <link rel="preconnect" href="https://jeanropke.b-cdn.net">
-  <link rel="preconnect" href="https://s.rsg.sc">
 
   <!-- Preloads for certain UI elements -->
   <link rel="preload" as="image" href="./assets/images/action_indicator_clear.png">
@@ -282,13 +277,6 @@
         <div class="input-action"></div>
       </div>
       <hr class="menu-divider">
-      <div class="input-container" data-help="fme_display">
-        <label for="fme-display" data-text="menu.fme_display">Show Freeroam Events</label>
-        <div class="input-checkbox-wrapper">
-          <input class="input-checkbox" type="checkbox" name="fme-display" value="1" id="fme-display" />
-          <label class="input-checkbox-label" for="fme-display"></label>
-        </div>
-      </div>
       <div class="input-container" data-help="fme_display_general_period">
         <label for="fme-display-general-period" data-text="menu.fme_display_general_period">General Event display
           period</label>
@@ -1025,25 +1013,6 @@
     <p id="item-counter" class="hidden" data-help="collectables_counter">-- of --</p>
     <p id="item-counter-percentage" class="hidden" data-help="collectables_counter">-.--%</p>
     <img id="day-cycle" class="hidden" data-help="sun_moon_indicator" src="#" alt="Daylight indicator">
-  </div>
-
-  <div id="fme-container" style="display: none;">
-    <div id="next-general-event" class="fme-card">
-      <img class="fme-image" id="next-general-image" />
-      <div class="fme-body">
-        <h3 class="fme-title" id="next-general-name"></h3>
-        <p class="fme-text" id="next-general-eta"></p>
-      </div>
-      <span id="next-general-mobile"></span>
-    </div>
-    <div id="next-role-event" class="fme-card">
-      <img class="fme-image" id="next-role-image" />
-      <div class="fme-body">
-        <h3 class="fme-title" id="next-role-name"></h3>
-        <p class="fme-text" id="next-role-eta"></p>
-      </div>
-      <span id="next-role-mobile"></span>
-    </div>
   </div>
 
   <div id="map">
