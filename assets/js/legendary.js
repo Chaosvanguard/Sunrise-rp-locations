@@ -49,6 +49,7 @@ class Legendary {
     this.trapper_pelt_value = `$${this.trapper_pelt_value.toFixed(2)}`;
     this.trapper_part_value = `$${this.trapper_part_value.toFixed(2)}`;
     this.sample_value = `$${this.sample_value.toFixed(2)}`;
+    this.preferred_meal = Language.get('map.meal.${this.preferred_meal}');
     this.reinitMarker();
     this.element.appendTo(Legendary.context);
   }
@@ -117,6 +118,7 @@ class Legendary {
           <p class="legendary-trapper-pelt-value" data-text="map.legendary.trapper_pelt_value"></p>
           <p class="legendary-trapper-part-value" data-text="map.legendary.trapper_part_value"></p>
           <p class="legendary-sample-value" data-text="map.legendary.sample_value"></p>
+          <p class="legendary-preferred-meal" data-text="map.legendary.preferred_meal"></p>
         </span>
         <button type="button" class="btn btn-info remove-button remove-animal-category" data-text="map.remove.animal_category"></button>
         <button type="button" class="btn btn-info remove-button reset-animal-timer" data-text="map.reset_animal_timer"></button>

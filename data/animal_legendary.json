@@ -594,13 +594,14 @@
     ],
     "animal_name": "Legendary Moonstone Wolf",
     "spawn_time": [[0, 24]],
-    "preferred_weather": "clear",
+    "preferred_weather": "any",
     "trader_materials": 35.31,
     "trader_pelt_materials": 25,
     "trapper_value": 28.25,
     "trapper_pelt_value": 45,
     "trapper_part_value": 2,
     "sample_value": 14,
+    "preferred_meal": "ebird",
     "animal_category": "dark",
     "set_value": 680
   }
