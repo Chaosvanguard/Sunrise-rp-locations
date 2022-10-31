@@ -593,14 +593,14 @@
       { "text": "wolf_cohutta_05", "x": -36.4469, "y": 114.3362 }
     ],
     "animal_name": "Legendary Moonstone Wolf",
-    "spawn_time": [[21, 6]],
+    "spawn_time": [[0, 24]],
     "preferred_weather": "clear",
-    "trader_materials": 35.31,
-    "trader_pelt_materials": 25,
-    "trapper_value": 28.25,
-    "trapper_pelt_value": 20,
-    "trapper_part_value": 2,
-    "sample_value": 14,
+    //"trader_materials": 35.31,
+    //"trader_pelt_materials": 25,
+    //"trapper_value": 28.25,
+    "trapper_pelt_value": 45,
+    //"trapper_part_value": 2,
+    //"sample_value": 14,
     "animal_category": "dark",
     "set_value": 680
   }
