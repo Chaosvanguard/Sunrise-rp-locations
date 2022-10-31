@@ -192,7 +192,7 @@ class Legendary {
   }
   set isGreyedOut(state) {
     if (state)
-      localStorage.setItem(this.animalSpeciesKey, Date.now() + 259200000); // 259200000 ms = 72 hours
+      localStorage.setItem(this.animalSpeciesKey, Date.now() + 7200000); // 7200000 ms = 2 hours
     else
       localStorage.removeItem(this.animalSpeciesKey);
 
