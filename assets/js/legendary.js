@@ -49,7 +49,7 @@ class Legendary {
     this.trapper_pelt_value = `$${this.trapper_pelt_value.toFixed(2)}`;
     this.trapper_part_value = `$${this.trapper_part_value.toFixed(2)}`;
     this.sample_value = `$${this.sample_value.toFixed(2)}`;
-    this.preferred_meal = Language.get('map.meal.${this.preferred_meal}');
+    this.preferred_meal = Language.get(`map.meal.${this.preferred_meal}`);
     this.reinitMarker();
     this.element.appendTo(Legendary.context);
   }
