@@ -571,7 +571,7 @@
     "set_value": 480
   },
   {
-    "text": "mp_animal_wolf_legendary_02", "x": -41.6094, "y": 136.375, "radius": 7,
+    "text": "mp_animal_wolf_legendary_04", "x": -41.6094, "y": 136.375, "radius": 7,
     "locations": [
       { "text": "wolf_o_creagh_01", "x": -42.8786, "y": 136.8918 }
     ],
