@@ -1934,7 +1934,7 @@
     "provision_raccoon_fur_pristine.name": "Perfect Raccoon Pelt",
     "provision_seagull_feather.name": "Seagull Feather",
     "provision_skunk_fur_pristine.name": "Perfect Skunk Pelt",
-    "map.legendary_animal.desc": "Legendary Animals are Random Encounters like the other random encounters, but with possible environmental restrictions like weather and time of day. You can try using Legendary Animal Pheromones to draw them out if the conditions are right.",
+    "map.legendary_animal.desc": "Legendary Animals are Scripted Encounters. They require a Trap from Moonstone Pond, and they have different requirements.",
     "menu.legendary_animals": "Legendary Animals",
     "mp_animal_alligator_legendary_01": "Alligator #1 - Teca",
     "mp_animal_alligator_legendary_02": "Alligator #2 - Sun",
