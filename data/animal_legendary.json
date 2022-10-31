@@ -425,16 +425,7 @@
   {
     "text": "mp_animal_fox_legendary_02", "x": -28.1406, "y": 92.6406, "radius": 5,
     "locations": [
-      { "text": "fox_clemens_04", "x": -28.8616, "y": 96.3367 },
-      { "text": "fox_clemens_05", "x": -31.3041, "y": 94.2081 },
-      { "text": "fox_colter_03", "x": -26.0163, "y": 92.5196 },
-      { "text": "fox_colter_04", "x": -25.6515, "y": 91.4099 },
-      { "text": "fox_colter_05", "x": -27.9236, "y": 90.4859 },
-      { "text": "fox_colter_06", "x": -27.2660, "y": 93.2922 },
-      { "text": "fox_colter_07", "x": -28.4183, "y": 90.6566 },
-      { "text": "fox_colter_08", "x": -29.5941, "y": 92.6258 },
-      { "text": "fox_colter_09", "x": -27.9167, "y": 93.1054 },
-      { "text": "fox_colter_10", "x": -26.4321, "y": 89.6490 }
+      { "text": "fox_clemens_04", "x": -28.8616, "y": 96.3367 }
     ],
     "animal_name": "Marble Fox",
     "spawn_time": [[6, 9], [18, 21]],
