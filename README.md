@@ -1,1 +1,1 @@
-# SunriseCollectorsMap ([website](https://jeanropke.github.io/RDR2CollectorsMap/))
+# SunriseCollectorsMap ([website](https://chaosvanguard.github.io/Sunrise-rp-locations//))
