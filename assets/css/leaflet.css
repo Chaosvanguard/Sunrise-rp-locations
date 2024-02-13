@@ -7,7 +7,6 @@
 .leaflet-tile-container,
 .leaflet-pane > svg,
 .leaflet-pane > canvas,
-.leaflet-zoom-box,
 .leaflet-image-layer,
 .leaflet-layer {
 	position: absolute;
