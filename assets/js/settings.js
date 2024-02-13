@@ -175,18 +175,3 @@ Object.entries({
   legendarySpawnIconSize: { default: 1 },
   showTooltipsMap: { default: 1 },
 }).forEach(([name, config]) => SettingProxy.addSetting(Settings, name, config));
-
-// Inventory settings
-const InventorySettings = SettingProxy.createSettingProxy('rdr2collector.inventory');
-Object.entries({
-  highlightLowAmountItems: { default: false },
-  isEnabled: { default: false },
-  isMenuUpdateEnabled: { default: true },
-  isPopupsEnabled: { default: true },
-  resetInventoryDaily: { default: false },
-  stackSize: { default: 10 },
-  flowersSoftStackSize: { default: 10 },
-  enableAdvancedInventoryOptions: { default: true },
-  autoEnableSoldItems: { default: true },
-  maxAmountLowInventoryItems: { default: 5 }
-}).forEach(([name, config]) => SettingProxy.addSetting(InventorySettings, name, config));
