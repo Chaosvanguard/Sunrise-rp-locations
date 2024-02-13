@@ -156,7 +156,7 @@ Object.entries({
   isPinsPlacingEnabled: { default: false },
   isPopupsEnabled: { default: true },
   isPopupsHoverEnabled: { default: false },
-  isRightClickEnabled: { default: true },
+  isRightClickEnabled: { default: false },
   isShadowsEnabled: { default: true },
   isLaBgEnabled: { default: true },
   isMapBoundariesEnabled: {default: true },
