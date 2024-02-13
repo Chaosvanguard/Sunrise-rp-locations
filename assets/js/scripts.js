@@ -336,8 +336,6 @@ function clockTick() {
     hourCycle: 'h23',
   };
 
-  $('#countdown').text(delta.toLocaleString([], deltaFormat));
-
   $('[data-marker*="provision_wldflwr_agarita"], [data-marker*="provision_wldflwr_blood_flower"]').css('filter', (function () {
     if (MapBase.isPreviewMode) return 'none';
     const isImportant = $(this).hasClass('highlight-items');
