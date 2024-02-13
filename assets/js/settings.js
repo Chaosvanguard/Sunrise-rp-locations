@@ -191,24 +191,3 @@ Object.entries({
   autoEnableSoldItems: { default: true },
   maxAmountLowInventoryItems: { default: 5 }
 }).forEach(([name, config]) => SettingProxy.addSetting(InventorySettings, name, config));
-
-// Route settings
-const RouteSettings = SettingProxy.createSettingProxy('rdr2collector.routes');
-Object.entries({
-  allowFasttravel: { default: false },
-  allowRailroad: { default: false },
-  autoUpdatePath: { default: false },
-  customRouteEnabled: { default: false },
-  fasttravelWeight: { default: 1 },
-  generateOnVisit: { default: false },
-  genPathStart: { default: 'SW' },
-  ignoreCollected: { default: true },
-  importantOnly: { default: false },
-  maxDistance: { default: 25 },
-  railroadWeight: { default: 1 },
-  runOnStart: { default: false },
-  startMarkerLat: { default: -119.9063 },
-  startMarkerLng: { default: 8.0313 },
-  usePathfinder: { default: true },
-  customRoute: { default: '' }
-}).forEach(([name, config]) => SettingProxy.addSetting(RouteSettings, name, config));
