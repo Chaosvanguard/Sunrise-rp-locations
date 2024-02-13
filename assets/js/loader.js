@@ -45,9 +45,6 @@ class Loader {
 }
 
 const urls = [
-    'data/filters.json',
-    'data/items_value.json',
-    'data/items.json',
     'data/lang_progress.json',
     'data/loot.json',
     'data/mapping.json',
