@@ -117,13 +117,6 @@ const MapBase = {
       layers: [mapLayers[this.themeOverride || Settings.baseLayer]],
     }).setView([this.viewportX, this.viewportY], this.viewportZoom);
 
-    MapBase.map.addControl(
-      L.control.attribution({
-        position: 'bottomright',
-        prefix: '<a target="_blank" href="https://github.com/jeanropke/RDR2CollectorsMap/blob/master/CONTRIBUTORS.md" data-text="map.attribution_prefix">Collectors Map Contributors</a>'
-      })
-    );
-
     L.control.zoom({
       position: 'bottomright'
     }).addTo(MapBase.map);
