@@ -45,9 +45,6 @@ class Loader {
 }
 
 const urls = [
-    'data/animal_legendary.json',
-    'data/cycles.json',
-    'data/fasttravels.json',
     'data/filters.json',
     'data/items_value.json',
     'data/items.json',
@@ -55,7 +52,6 @@ const urls = [
     'data/loot.json',
     'data/mapping.json',
     'data/overlays.json',
-    'data/treasures.json',
     'data/updates.json',
     'data/weekly_sets.json',
     'https://api.rdo.gg/fme/',
